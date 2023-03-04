@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title align="center">IONIC_PRÁCTICA</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content align="center">
+  
+  <ion-list align="center">
+    <ion-item align="center" *ngFor="let c of componentes" [routerLink]=c.redirecTo>
+      <ion-icon name={{c.icon}} slot="start"></ion-icon>
+      {{c.name}}
+    </ion-item>
+  </ion-list>
+  <!--
+  <ion-button fill="outline" routerLink="/alert">Page - ALERT</ion-button>
+  <ion-button fill="outline" routerLink="/actions-sheet">Page - ACTION SHEET</ion-button>
+  -->
+  </ion-content>
+
+  
+

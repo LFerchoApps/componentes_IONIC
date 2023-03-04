@@ -13,10 +13,20 @@ export class InicioPage implements OnInit {
 
   componentes:Componente[] = [
     {
-      icon:"finger-print-outline",
+      icon:"flower-outline",
       name:"_ACTIONS-SHEET_",
       redirecTo:"/actions-sheet"
-    }
+    },
+    {
+      icon:"star-half-outline",
+      name:"_ALERT-PAGE_",
+      redirecTo:"/alert.page"
+    },
+    {
+      icon:"home-outline",
+      name:"_INICIO-PAGE_",
+      redirecTo:"/inicio.page"
+    },
   ];
   constructor() { }
 

@@ -19,7 +19,23 @@ const routes: Routes = [
   {
     path: 'actions-sheet',
     loadChildren: () => import('./pages/actions-sheet/actions-sheet.module').then( m => m.ActionsSheetPageModule)
+  },  {
+    path: 'ion-card-content',
+    loadChildren: () => import('./pages/ion-card-content/ion-card-content.module').then( m => m.IonCardContentPageModule)
   },
+  {
+    path: 'floating',
+    loadChildren: () => import('./pages/floating/floating.module').then( m => m.FloatingPageModule)
+  },
+  {
+    path: 'item',
+    loadChildren: () => import('./pages/item/item.module').then( m => m.ItemPageModule)
+  },
+  {
+    path: 'breadcrumb',
+    loadChildren: () => import('./pages/breadcrumb/breadcrumb.module').then( m => m.BreadcrumbPageModule)
+  },
+
 ];
 
 @NgModule({

@@ -27,6 +27,26 @@ export class InicioPage implements OnInit {
       name:"_INICIO-PAGE_",
       redirecTo:"/inicio.page"
     },
+    {
+      icon:"walk-outline",
+      name:"_ION_CARD_CONTENT",
+      redirecTo:"/ion-card-content"
+    },
+    {
+      icon:"balloon-outline",
+      name:"_FLOATING_ACTION_BUTTON",
+      redirecTo:"/floating"
+    },
+    {
+      icon:"pricetags-outline",
+      name:"_ITEM_INPUT_LABELS",
+      redirecTo:"/item"
+    },
+    {
+      icon:"ellipsis-vertical-circle-outline",
+      name:"_BREADCRUMB_",
+      redirecTo:"/breadcrumb"
+    }
   ];
   constructor() { }
 

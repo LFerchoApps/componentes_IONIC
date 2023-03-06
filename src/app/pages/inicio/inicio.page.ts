@@ -67,6 +67,11 @@ export class InicioPage implements OnInit {
       name:'_ION_CHIP_',
       redirecTo:"/ion-chip"
     },
+    {
+      icon:"Walk-outline",
+      name:'_ION_TABS_',
+      redirecTo:"/ion-tabs"
+    },
 
 
   ];

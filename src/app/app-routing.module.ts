@@ -52,10 +52,15 @@ const routes: Routes = [
     path: 'ion-alert',
     loadChildren: () => import('./pages/ion-alert/ion-alert.module').then( m => m.IonAlertPageModule)
   },
+  {
+   path: 'ion-tabs',
+   loadChildren: () => import('./pages/ion-tabs/ion-tabs.module').then( m => m.IonTabsPageModule)
+  },
   //{
     //path: 'ion-chip',
     //loadChildren: () => import('./pages/ion-chip/ion-chip.module').then( m => m.IonChipPageModule)
   //},
+
 
 
 

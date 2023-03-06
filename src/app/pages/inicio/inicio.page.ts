@@ -18,35 +18,27 @@ export class InicioPage implements OnInit {
       redirecTo:"/actions-sheet"
     },
     {
-      icon:"star-half-outline",
-      name:"_ALERT-PAGE_",
-      redirecTo:"/alert.page"
+      icon:"leaf-outline",
+      name:'_ICONS_',
+      redirecTo:"/iconos"
     },
     {
-      icon:"home-outline",
-      name:"_INICIO-PAGE_",
-      redirecTo:"/inicio.page"
+      icon:"list-outline",
+      name:'_MENU_',
+      redirecTo:"/menu"
     },
     {
-      icon:"walk-outline",
-      name:"_ION_CARD_CONTENT",
-      redirecTo:"/ion-card-content"
+      icon:"heart-half-outline",
+      name:'_CONTENT_',
+      redirecTo:"/content"
     },
     {
-      icon:"balloon-outline",
-      name:"_FLOATING_ACTION_BUTTON",
-      redirecTo:"/floating"
+      icon:"paw-outline",
+      name:'_BADGE_',
+      redirecTo:"/badge"
     },
-    {
-      icon:"pricetags-outline",
-      name:"_ITEM_INPUT_LABELS",
-      redirecTo:"/item"
-    },
-    {
-      icon:"ellipsis-vertical-circle-outline",
-      name:"_BREADCRUMB_",
-      redirecTo:"/breadcrumb"
-    }
+
+
   ];
   constructor() { }
 

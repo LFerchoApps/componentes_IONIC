@@ -1,0 +1,59 @@
+<app-header titulo="Page _ION-Menu_"></app-header>
+
+<ion-content>
+    
+
+
+<ion-app>
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-icon name="list-outline"></ion-icon>
+          <ion-title >Menu Calificaciones</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item>
+            <ion-label>Matematicas</ion-label>
+            <ion-badge color="primary">8</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Base de Datos</ion-label>
+            <ion-badge color="secondary">9</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Lot</ion-label>
+            <ion-badge color="tertiary">9</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Aplicaciones we</ion-label>
+            <ion-badge color="success">8</ion-badge>
+          </ion-item>
+          </ion-list>
+      </ion-content>
+      <ion-content class="ion-padding">
+       <ion-menu-toggle>
+          <ion-button>Cerrar menu</ion-button>
+        </ion-menu-toggle>
+      
+      </ion-content>
+    </ion-menu>
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+            <ion-icon name="list-outline"></ion-icon>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-menu-toggle>
+          <ion-button>Desliza de izquierda a derecha para ver el menu </ion-button>
+        </ion-menu-toggle>
+      </ion-content>
+    </div>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-app>
+
+
+</ion-content>

@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { IonInfiniteScrollePageRoutingModule } from './ion-infinite-scrolle-routing.module';
 
 import { IonInfiniteScrollePage } from './ion-infinite-scrolle.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IonInfiniteScrollePageRoutingModule
+    IonInfiniteScrollePageRoutingModule,
+    ComponentsModule
   ],
   declarations: [IonInfiniteScrollePage]
 })

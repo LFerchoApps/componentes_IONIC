@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { IonMediaPageRoutingModule } from './ion-media-routing.module';
 
 import { IonMediaPage } from './ion-media.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IonMediaPageRoutingModule
+    IonMediaPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [IonMediaPage]
 })

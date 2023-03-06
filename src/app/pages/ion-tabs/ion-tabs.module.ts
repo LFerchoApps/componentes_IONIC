@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { IonTabsPageRoutingModule } from './ion-tabs-routing.module';
 
 import { IonTabsPage } from './ion-tabs.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IonTabsPageRoutingModule
+    IonTabsPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [IonTabsPage]
 })

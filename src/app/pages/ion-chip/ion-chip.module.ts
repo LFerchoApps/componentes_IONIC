@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { IonChipPageRoutingModule } from './ion-chip-routing.module';
 
 import { IonChipPage } from './ion-chip.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IonChipPageRoutingModule
+    IonChipPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [IonChipPage]
 })

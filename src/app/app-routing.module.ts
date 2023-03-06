@@ -32,6 +32,31 @@ const routes: Routes = [
     path: 'badge',
     loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
   },
+  {
+    path: 'ion-card-content',
+    loadChildren: () => import('./pages/ion-card-content/ion-card-content.module').then( m => m.IonCardContentPageModule)
+  },
+  {
+    path: 'breadcrumb',
+    loadChildren: () => import('./pages/breadcrumb/breadcrumb.module').then( m => m.BreadcrumbPageModule)
+  },
+  {
+    path: 'floating',
+    loadChildren: () => import('./pages/floating/floating.module').then( m => m.FloatingPageModule)
+  },
+  {
+    path: 'item',
+    loadChildren: () => import('./pages/item/item.module').then( m => m.ItemPageModule)
+  },
+  {
+    path: 'ion-alert',
+    loadChildren: () => import('./pages/ion-alert/ion-alert.module').then( m => m.IonAlertPageModule)
+  },
+  //{
+    //path: 'ion-chip',
+    //loadChildren: () => import('./pages/ion-chip/ion-chip.module').then( m => m.IonChipPageModule)
+  //},
+
 
 
 

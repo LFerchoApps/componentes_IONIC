@@ -56,10 +56,22 @@ const routes: Routes = [
    path: 'ion-tabs',
    loadChildren: () => import('./pages/ion-tabs/ion-tabs.module').then( m => m.IonTabsPageModule)
   },
-  //{
-    //path: 'ion-chip',
-    //loadChildren: () => import('./pages/ion-chip/ion-chip.module').then( m => m.IonChipPageModule)
-  //},
+  {
+  path: 'refresher',
+  loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
+  },  {
+    path: 'select',
+    loadChildren: () => import('./pages/select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'toolbar',
+    loadChildren: () => import('./pages/toolbar/toolbar.module').then( m => m.ToolbarPageModule)
+  },
+  {
+    path: 'typography',
+    loadChildren: () => import('./pages/typography/typography.module').then( m => m.TypographyPageModule)
+  },
+
 
 
 

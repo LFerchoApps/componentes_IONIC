@@ -72,6 +72,26 @@ export class InicioPage implements OnInit {
       name:'_ION_TABS_',
       redirecTo:"/ion-tabs"
     },
+    {
+      icon:"refresh-circle-outline",
+      name:'_ION_REFRESHER_',
+      redirecTo:"/refresher"
+    },
+    {
+      icon:"checkmark-circle-outline",
+      name:'_ION_SELECT_',
+      redirecTo:"/select"
+    },
+    {
+      icon:"hammer-outline",
+      name:'_ION_TOOLBAR_',
+      redirecTo:"/toolbar"
+    },
+    {
+      icon:"letters-outline",
+      name:'_ION_TYPOGRAPHY_',
+      redirecTo:"/typography"
+    },
 
 
   ];

@@ -18,35 +18,82 @@ export class InicioPage implements OnInit {
       redirecTo:"/actions-sheet"
     },
     {
-      icon:"star-half-outline",
-      name:"_ALERT-PAGE_",
-      redirecTo:"/alert.page"
+      icon:"leaf-outline",
+      name:'_ICONS_',
+      redirecTo:"/iconos"
     },
     {
-      icon:"home-outline",
-      name:"_INICIO-PAGE_",
-      redirecTo:"/inicio.page"
+      icon:"list-outline",
+      name:'_MENU_',
+      redirecTo:"/menu"
     },
     {
-      icon:"walk-outline",
-      name:"_ION_CARD_CONTENT",
+      icon:"heart-half-outline",
+      name:'_CONTENT_',
+      redirecTo:"/content"
+    },
+    {
+      icon:"paw-outline",
+      name:'_BADGE_',
+      redirecTo:"/badge"
+    },
+    {
+      icon:"albums-outline",
+      name:'_ION_CARD_CONTENT_',
       redirecTo:"/ion-card-content"
     },
     {
+      icon:"apps-outline",
+      name:'_BREADCRUMB_',
+      redirecTo:"/breadcrumb"
+    },
+    {
       icon:"balloon-outline",
-      name:"_FLOATING_ACTION_BUTTON",
+      name:'_FLOATING_ACTION_BUTTON',
       redirecTo:"/floating"
     },
     {
-      icon:"pricetags-outline",
-      name:"_ITEM_INPUT_LABELS",
+      icon:"bug-outline",
+      name:'_ITEM_INPUT_LABELS',
       redirecTo:"/item"
     },
     {
-      icon:"ellipsis-vertical-circle-outline",
-      name:"_BREADCRUMB_",
-      redirecTo:"/breadcrumb"
-    }
+      icon:"alert-circle-outline",
+      name:'_ALERT_PAGE',
+      redirecTo:"/ion-alert"
+    },
+    {
+      icon:"hardware-chip-outline",
+      name:'_ION_CHIP_',
+      redirecTo:"/ion-chip"
+    },
+    {
+      icon:"Walk-outline",
+      name:'_ION_TABS_',
+      redirecTo:"/ion-tabs"
+    },
+    {
+      icon:"refresh-circle-outline",
+      name:'_ION_REFRESHER_',
+      redirecTo:"/refresher"
+    },
+    {
+      icon:"checkmark-circle-outline",
+      name:'_ION_SELECT_',
+      redirecTo:"/select"
+    },
+    {
+      icon:"hammer-outline",
+      name:'_ION_TOOLBAR_',
+      redirecTo:"/toolbar"
+    },
+    {
+      icon:"letters-outline",
+      name:'_ION_TYPOGRAPHY_',
+      redirecTo:"/typography"
+    },
+
+
   ];
   constructor() { }
 

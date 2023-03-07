@@ -19,21 +19,34 @@ const routes: Routes = [
   {
     path: 'actions-sheet',
     loadChildren: () => import('./pages/actions-sheet/actions-sheet.module').then( m => m.ActionsSheetPageModule)
-  },  {
-    path: 'ion-card-content',
-    loadChildren: () => import('./pages/ion-card-content/ion-card-content.module').then( m => m.IonCardContentPageModule)
   },
   {
-    path: 'floating',
-    loadChildren: () => import('./pages/floating/floating.module').then( m => m.FloatingPageModule)
+    path: 'ion-alert',
+    loadChildren: () => import('./pages/ion-alert/ion-alert.module').then( m => m.IonAlertPageModule)
   },
   {
-    path: 'item',
-    loadChildren: () => import('./pages/item/item.module').then( m => m.ItemPageModule)
+    path: 'ion-chip',
+    loadChildren: () => import('./pages/ion-chip/ion-chip.module').then( m => m.IonChipPageModule)
   },
   {
-    path: 'breadcrumb',
-    loadChildren: () => import('./pages/breadcrumb/breadcrumb.module').then( m => m.BreadcrumbPageModule)
+    path: 'ion-infinite-scrolle',
+    loadChildren: () => import('./pages/ion-infinite-scrolle/ion-infinite-scrolle.module').then( m => m.IonInfiniteScrollePageModule)
+  },
+  {
+    path: 'ion-media',
+    loadChildren: () => import('./pages/ion-media/ion-media.module').then( m => m.IonMediaPageModule)
+  },
+  {
+    path: 'ion-progress-indicators',
+    loadChildren: () => import('./pages/ion-progress-indicators/ion-progress-indicators.module').then( m => m.IonProgressIndicatorsPageModule)
+  },
+  {
+    path: 'ion-routing',
+    loadChildren: () => import('./pages/ion-routing/ion-routing.module').then( m => m.IonRoutingPageModule)
+  },
+  {
+    path: 'ion-tabs',
+    loadChildren: () => import('./pages/ion-tabs/ion-tabs.module').then( m => m.IonTabsPageModule)
   },
 
 ];

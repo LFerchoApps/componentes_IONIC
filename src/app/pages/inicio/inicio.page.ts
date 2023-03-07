@@ -88,7 +88,7 @@ export class InicioPage implements OnInit {
       redirecTo:"/toolbar"
     },
     {
-      icon:"letters-outline",
+      icon:"text-outline",
       name:'_ION_TYPOGRAPHY_',
       redirecTo:"/typography"
     },

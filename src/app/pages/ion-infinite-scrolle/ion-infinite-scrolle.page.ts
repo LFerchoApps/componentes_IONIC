@@ -11,8 +11,7 @@ export class IonInfiniteScrollePage implements OnInit {
 
   constructor() { }
 
-  items = [];
-  Item:string;
+  items:string[]=[];
 
   ngOnInit() {
     this.generateItems();
@@ -21,11 +20,11 @@ export class IonInfiniteScrollePage implements OnInit {
   private generateItems() {
     const count = this.items.length + 1;
     for (let i = 0; i < 50; i++) {
-      this.items.push(`Item ${count + i}`);
+      this.items.push(`Item! ${count + i}`);
     }
   }
 
-  onIonInfinite(ev) {
+  onIonInfinite(ev: InfiniteScrollCustomEvent) {
     this.generateItems();
     setTimeout(() => {
       (ev as InfiniteScrollCustomEvent).target.complete();

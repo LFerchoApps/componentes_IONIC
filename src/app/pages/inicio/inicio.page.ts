@@ -38,7 +38,6 @@ export class InicioPage implements OnInit {
       redirecTo:"/badge"
     },
     {
-<<<<<<< Updated upstream
       icon:"albums-outline",
       name:'_ION_CARD_CONTENT_',
       redirecTo:"/ion-card-content"
@@ -113,8 +112,7 @@ export class InicioPage implements OnInit {
       name:'_ION_PROGRESS_INDICATORS',
       redirecTo:"/ion-progress-indicatiors"
     },
-
-=======
+    {
       icon:"radio-outline",
       name:'_ION-RADIO_',
       redirecTo:"/ion-radio"
@@ -129,7 +127,6 @@ export class InicioPage implements OnInit {
       name:'_ION-TOAST_',
       redirecTo:"/ion-toast"
     },
->>>>>>> Stashed changes
 
 
   ];

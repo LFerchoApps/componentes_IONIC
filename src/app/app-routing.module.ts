@@ -31,7 +31,8 @@ const routes: Routes = [
   {
     path: 'badge',
     loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
-  },  {
+  },
+  {
     path: 'ion-radio',
     loadChildren: () => import('./pages/ion-radio/ion-radio.module').then( m => m.IonRadioPageModule)
   },
@@ -43,7 +44,6 @@ const routes: Routes = [
     path: 'ion-toast',
     loadChildren: () => import('./pages/ion-toast/ion-toast.module').then( m => m.IonToastPageModule)
   },
-<<<<<<< Updated upstream
   {
     path: 'ion-card-content',
     loadChildren: () => import('./pages/ion-card-content/ion-card-content.module').then( m => m.IonCardContentPageModule)
@@ -93,19 +93,6 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
-=======
-
-
-
-
-];
-
-@NgModule({
-  imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
-  ],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
->>>>>>> Stashed changes
+export class AppRoutingModule {
+  
+ }

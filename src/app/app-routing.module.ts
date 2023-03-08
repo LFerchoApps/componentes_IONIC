@@ -92,6 +92,18 @@ const routes: Routes = [
     path: 'ion-infinite-scrolle',
     loadChildren: () => import('./pages/ion-infinite-scrolle/ion-infinite-scrolle.module').then( m => m.IonInfiniteScrollePageModule)
   },
+  {
+    path: 'ion-media',
+    loadChildren: () => import('./pages/ion-media/ion-media.module').then( m => m.IonMediaPageModule)
+  },
+  {
+    path: 'ion-progress-indicators',
+    loadChildren: () => import('./pages/ion-progress-indicators/ion-progress-indicators.module').then( m => m.IonProgressIndicatorsPageModule)
+  },
+  //{
+    //path: 'ion-routing',
+    //loadChildren: () => import('./pages/ion-routing/ion-routing.module').then( m => m.IonRoutingPageModule)
+  //},
   
   {
     path: 'ion-chip',

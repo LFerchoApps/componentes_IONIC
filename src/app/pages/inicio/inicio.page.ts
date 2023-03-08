@@ -103,14 +103,14 @@ export class InicioPage implements OnInit {
       redirecTo:"/ion-routing"
     },
     {
-      icon:"letters-outline",
+      icon:"images-outline",
       name:'_ION_MEDIA_',
       redirecTo:"/ion-media"
     },
     {
-      icon:"letters-outline",
+      icon:"code-working-outline",
       name:'_ION_PROGRESS_INDICATORS',
-      redirecTo:"/ion-progress-indicatiors"
+      redirecTo:"/ion-progress-indicators"
     },
     {
       icon:"radio-outline",

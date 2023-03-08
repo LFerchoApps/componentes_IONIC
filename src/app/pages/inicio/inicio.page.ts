@@ -95,6 +95,8 @@ export class InicioPage implements OnInit {
     {
       icon:"filter-outline",
       name:'_ION_INFINITE_SCROLL_',
+      icon:"infinite-outline",
+      name:'_ION_INFINITE_SCROLL',
       redirecTo:"/ion-infinite-scrolle"
     },
     {
@@ -104,6 +106,7 @@ export class InicioPage implements OnInit {
     },
     {
       icon:"folder-open-outline",
+      icon:"images-outline",
       name:'_ION_MEDIA_',
       redirecTo:"/ion-media"
     },
@@ -112,7 +115,41 @@ export class InicioPage implements OnInit {
       name:'_ION_PROGRESS_INDICATORS_',
       redirecTo:"/ion-progress-indicators"
     },
-
+      icon:"radio-outline",
+      name:'_ION-RADIO_',
+      redirecTo:"/ion-radio"
+    },
+    {
+      icon:"star-outline",
+      name:'_ION-SEARCHBAR_',
+      redirecTo:"/ion-searchbar"
+    },
+    {
+      icon:"sparkles-outline",
+      name:'_ION-TOAST_',
+      redirecTo:"/ion-toast"
+    },
+    {
+      icon:"git-compare-outline",
+      name:'_ION-REORDER_',
+      redirecTo:"/ion-reorder"
+    },
+    {
+      icon:"filter-circle-outline",
+      name:'_ION-GRID_',
+      redirecTo:"/ion-grid"
+    },
+    {
+      icon:"checkbox-outline",
+      name:'_ION-CHECKBOX_',
+      redirecTo:"/ion-checkbox"
+    },
+    {
+      icon:"expand-outline",
+      name:'_ION-POPOVER_',
+      redirecTo:"/ion-popover"
+    },
+    
 
 
   ];

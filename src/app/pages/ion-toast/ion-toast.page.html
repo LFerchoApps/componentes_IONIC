@@ -1,0 +1,27 @@
+<app-header titulo="Page _ION-TOAST_"></app-header>
+
+  <ion-content>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>
+          Ejemplo de Toast
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    
+    <ion-content>
+      <ion-button onclick="mostrarToast()">Mostrar mas informacion</ion-button>
+    </ion-content>
+    
+    <script>
+      function mostrarToast() {
+        const toast = document.createElement('ion-toast');
+        toast.message = '¡Hola, este es un mensaje de Toast!';
+        toast.duration = 2000;
+        document.body.appendChild(toast);
+        return toast.present();
+      }
+    </script>
+   
+    
+    </ion-content>

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ItemReorderEventDetail } from '@ionic/angular';
 @Component({
-  selector: 'app-ion-chip',
-  templateUrl: './ion-chip.page.html',
-  styleUrls: ['./ion-chip.page.scss'],
+  selector: 'app-ion-reorder',
+  templateUrl: './ion-reorder.page.html',
+  styleUrls: ['./ion-reorder.page.scss'],
 })
-export class IonChipPage implements OnInit {
+export class IonReorderPage implements OnInit {
   handleReorder(ev: CustomEvent<ItemReorderEventDetail>) {
     // The `from` and `to` properties contain the index of the item
     // when the drag started and ended, respectively
@@ -16,10 +16,9 @@ export class IonChipPage implements OnInit {
     // by the reorder group
     ev.detail.complete();
   }
-
   constructor() { }
 
   ngOnInit() {
-
   }
+
 }

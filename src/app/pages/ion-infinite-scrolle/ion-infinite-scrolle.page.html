@@ -9,7 +9,7 @@
       <ion-label>{{ item }}</ion-label>
     </ion-item>
   </ion-list>
-  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($any($event))">
     <ion-infinite-scroll-content></ion-infinite-scroll-content>
   </ion-infinite-scroll>
 </ion-content>

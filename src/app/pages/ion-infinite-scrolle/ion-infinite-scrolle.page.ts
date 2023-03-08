@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { IonInfiniteScrollePageModule } from './ion-infinite-scrolle.module';
 import { InfiniteScrollCustomEvent } from '@ionic/angular';
 
 @Component({

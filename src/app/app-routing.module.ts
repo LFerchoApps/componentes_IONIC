@@ -89,9 +89,15 @@ const routes: Routes = [
     loadChildren: () => import('./pages/ion-reorder/ion-reorder.module').then( m => m.IonReorderPageModule)
   },
   {
+    path: 'ion-infinite-scrolle',
+    loadChildren: () => import('./pages/ion-infinite-scrolle/ion-infinite-scrolle.module').then( m => m.IonInfiniteScrollePageModule)
+  },
+  
+  {
     path: 'ion-chip',
     loadChildren: () => import('./pages/ion-chip/ion-chip.module').then( m => m.IonChipPageModule)
-  },  {
+  },
+  {
     path: 'ion-grid',
     loadChildren: () => import('./pages/ion-grid/ion-grid.module').then( m => m.IonGridPageModule)
   },

@@ -93,7 +93,7 @@ export class InicioPage implements OnInit {
       redirecTo:"/typography"
     },
     {
-      icon:"letters-outline",
+      icon:"infinite-outline",
       name:'_ION_INFINITE_SCROLL',
       redirecTo:"/ion-infinite-scrolle"
     },

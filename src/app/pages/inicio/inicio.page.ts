@@ -142,6 +142,12 @@ export class InicioPage implements OnInit {
       name:'_ION-CHECKBOX_',
       redirecTo:"/ion-checkbox"
     },
+    {
+      icon:"expand-outline",
+      name:'_ION-POPOVER_',
+      redirecTo:"/ion-popover"
+    },
+    
 
 
   ];

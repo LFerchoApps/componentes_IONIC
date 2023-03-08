@@ -116,7 +116,12 @@ const routes: Routes = [
   {
     path: 'ion-checkbox',
     loadChildren: () => import('./pages/ion-checkbox/ion-checkbox.module').then( m => m.IonCheckboxPageModule)
+  },  {
+    path: 'ion-popover',
+    loadChildren: () => import('./pages/ion-popover/ion-popover.module').then( m => m.IonPopoverPageModule)
   },
+
+  
 
 
 

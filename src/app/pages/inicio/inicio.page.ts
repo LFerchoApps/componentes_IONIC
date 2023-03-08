@@ -127,6 +127,11 @@ export class InicioPage implements OnInit {
       name:'_ION-TOAST_',
       redirecTo:"/ion-toast"
     },
+    {
+      icon:"sparkles-outline",
+      name:'_ION-REORDER_',
+      redirecTo:"/ion-reorder"
+    },
 
 
   ];

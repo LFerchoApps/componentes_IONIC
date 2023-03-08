@@ -84,6 +84,15 @@ const routes: Routes = [
     path: 'typography',
     loadChildren: () => import('./pages/typography/typography.module').then( m => m.TypographyPageModule)
   },
+  {
+    path: 'ion-reorder',
+    loadChildren: () => import('./pages/ion-reorder/ion-reorder.module').then( m => m.IonReorderPageModule)
+  },
+  {
+    path: 'ion-chip',
+    loadChildren: () => import('./pages/ion-chip/ion-chip.module').then( m => m.IonChipPageModule)
+  },
+
 
 ];
 

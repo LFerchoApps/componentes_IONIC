@@ -93,24 +93,24 @@ export class InicioPage implements OnInit {
       redirecTo:"/typography"
     },
     {
-      icon:"letters-outline",
-      name:'_ION_INFINITE_SCROLL',
+      icon:"filter-outline",
+      name:'_ION_INFINITE_SCROLL_',
       redirecTo:"/ion-infinite-scrolle"
     },
     {
-      icon:"letters-outline",
+      icon:"git-network-outline",
       name:'_ION_ROUTING_',
       redirecTo:"/ion-routing"
     },
     {
-      icon:"letters-outline",
+      icon:"folder-open-outline",
       name:'_ION_MEDIA_',
       redirecTo:"/ion-media"
     },
     {
-      icon:"letters-outline",
-      name:'_ION_PROGRESS_INDICATORS',
-      redirecTo:"/ion-progress-indicatiors"
+      icon:"trending-up-outline",
+      name:'_ION_PROGRESS_INDICATORS_',
+      redirecTo:"/ion-progress-indicators"
     },
 
 

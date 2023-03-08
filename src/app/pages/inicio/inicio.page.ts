@@ -128,9 +128,19 @@ export class InicioPage implements OnInit {
       redirecTo:"/ion-toast"
     },
     {
-      icon:"sparkles-outline",
+      icon:"git-compare-outline",
       name:'_ION-REORDER_',
       redirecTo:"/ion-reorder"
+    },
+    {
+      icon:"filter-circle-outline",
+      name:'_ION-GRID_',
+      redirecTo:"/ion-grid"
+    },
+    {
+      icon:"checkbox-outline",
+      name:'_ION-CHECKBOX_',
+      redirecTo:"/ion-checkbox"
     },
 
 

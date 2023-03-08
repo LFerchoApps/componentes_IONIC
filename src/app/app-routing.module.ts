@@ -91,7 +91,15 @@ const routes: Routes = [
   {
     path: 'ion-chip',
     loadChildren: () => import('./pages/ion-chip/ion-chip.module').then( m => m.IonChipPageModule)
+  },  {
+    path: 'ion-grid',
+    loadChildren: () => import('./pages/ion-grid/ion-grid.module').then( m => m.IonGridPageModule)
   },
+  {
+    path: 'ion-checkbox',
+    loadChildren: () => import('./pages/ion-checkbox/ion-checkbox.module').then( m => m.IonCheckboxPageModule)
+  },
+
 
 
 ];

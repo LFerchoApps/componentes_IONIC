@@ -116,14 +116,19 @@ const routes: Routes = [
   {
     path: 'ion-checkbox',
     loadChildren: () => import('./pages/ion-checkbox/ion-checkbox.module').then( m => m.IonCheckboxPageModule)
-  },  {
+  },
+  {
     path: 'ion-popover',
     loadChildren: () => import('./pages/ion-popover/ion-popover.module').then( m => m.IonPopoverPageModule)
   },
-
-  
-
-
+  {
+    path: 'ion-list',
+    loadChildren: () => import('./pages/ion-list/ion-list.module').then( m => m.IonListPageModule)
+  },
+  {
+    path: 'ion-accordion',
+    loadChildren: () => import('./pages/ion-accordion/ion-accordion.module').then( m => m.IonAccordionPageModule)
+  },
 
 ];
 
